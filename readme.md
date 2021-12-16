@@ -1,6 +1,7 @@
 # Bin Packing Problem and Algorithms
 -Benjamin Julien C. Roque
 
+## Problem Description
 Given an array of n items, with each item having different weights, and an unlimited number of bins of capacity c, assign each item to a bin such that the number of total used bins is minimized.
 The weights of the items must be less than or equal to bin capacity c.
 
@@ -18,3 +19,5 @@ The weights of the items must be less than or equal to bin capacity c.
 - Time Complexity: O(n^2). However can be reduced to O(n log n) if binary search tree is used to find bins
 - Checks already existsing bins if element fits inside before creating a new bin
 
+### Next Fit Decreasing and First Fit Decreasing
+- Uses the same algorithm for Next Fit and First Fit however, it sorts the data in descending order first before feeding it into the main algorithm

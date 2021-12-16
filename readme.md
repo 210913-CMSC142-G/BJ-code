@@ -8,7 +8,7 @@ The weights of the items must be less than or equal to bin capacity c.
 ## Algorithms
 ### Next Fit Algorithm
 - Time Complexity: O(n)
-- Procedues
+- Procedures:
   - Keeps a current bin
   - Check if element fits inside current bin
   - If element fits, put it inside

@@ -1,5 +1,6 @@
 # Bin Packing Problem and Algorithms
 -Benjamin Julien C. Roque
+
 Given an array of n items, with each item having different weights, and an unlimited number of bins of capacity c, assign each item to a bin such that the number of total used bins is minimized.
 The weights of the items must be less than or equal to bin capacity c.
 
